@@ -1,5 +1,6 @@
 ```
 export ZONE=
+export INSTANCE=
 ```
 
 ```
