@@ -10,7 +10,7 @@ export SERVICE_ACCOUNT=
 ```
 
 ```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/main/GSP/GSP342.sh
+curl -LO raw.githubusercontent.com/BTechWalaAbhishek/GCP_Lab/refs/heads/main/Implement%20Cloud%20Security%20Fundamentals%20on%20Google%20Cloud%3A%20Challenge%20Lab/GSP342.sh
 
 sudo chmod +x GSP342.sh
 
