@@ -44,4 +44,4 @@ python PubSubToGCS.py \
 --temp_location=gs://$BUCKET_NAME/temp
 EOF_CP
 chmod +x dev.sh
-docker run -it -e DEVSHELL_PROJECT_ID=$DEVSHELL_PROJECT_ID -e BUCKET_NAME=$BUCKET_NAME -e PROJECT_ID=$PROJECT_ID -e region=$region -e topic=$topic -v $(pwd)/abhi.sh:/abhi.sh python:3.7 /bin/bash -c "/dev.sh"
+docker run -it -e DEVSHELL_PROJECT_ID=$DEVSHELL_PROJECT_ID -e BUCKET_NAME=$BUCKET_NAME -e PROJECT_ID=$PROJECT_ID -e region=$region -e topic=$topic -v $(pwd)/dev.sh:/dev.sh python:3.7 /bin/bash -c "/dev.sh"
