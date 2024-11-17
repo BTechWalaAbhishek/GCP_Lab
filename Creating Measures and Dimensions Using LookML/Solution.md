@@ -109,7 +109,7 @@ view: users {
 }
 ```
 
-## Copy and Replace below code in users.view
+## Copy and Replace below code in order_items
 
 ```
 view: order_items {
